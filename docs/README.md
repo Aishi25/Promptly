@@ -1,14 +1,34 @@
-# Documentation
+# Promptly
 
-This folder contains project documentation and design notes.
+Promptly is a prompt optimization tool designed to improve prompts for large language models while minimizing token usage.
 
-## Contents
+## Project Goal
+Help users:
+- reduce token usage
+- improve prompt clarity
+- maintain context across conversations
 
-- architecture.md  
-  System architecture diagrams.
+## Planned Features
+- prompt optimization
+- token efficiency metrics
+- context summarization
+- Chrome extension interface
 
-- api.md  
-  API endpoint documentation.
+## System Architecture
 
-- design.md  
-  Design decisions and development notes.
+User  
+↓  
+Chrome Extension (Frontend)  
+↓  
+Backend API  
+↓  
+Prompt Optimization Engine  
+↓  
+Database
+
+## Tech Stack (Planned)
+
+Frontend: React + TypeScript  
+Backend: FastAPI (Python)  
+NLP Processing: Python + SpaCy / LLM APIs  
+Database: Supabase / PostgreSQL
